@@ -1,0 +1,39 @@
+/* SECTION
+*************************************************** */
+.has-navbar-fixed {
+  padding-top: $navbar-height;
+}
+.section {
+	padding: 6rem 0;
+}
+.section-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 4rem;
+}
+
+.header-group {
+	margin-bottom: 4rem;
+	.section-title {
+		margin-bottom: 1rem;
+	}
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+.parallax-overlay {
+  position: relative;
+  &:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    @include background-opacity(#000, .5);
+  }
+}

@@ -1,0 +1,16 @@
+@include breakpoint($medium-min) {
+	.solution-nav {
+		padding: 2rem;
+		.text {
+			font-size: 1.75rem;
+		}
+	}
+}
+@include breakpoint($large-min) {
+	.solution-nav {
+		padding: 3rem;
+		.text {
+			font-size: 2rem;
+		}
+	}
+}

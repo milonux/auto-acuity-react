@@ -1,0 +1,74 @@
+//2e3192
+$color-primary:                  #8A3F72;
+$color-secondary:                #39b54a;
+$color-success:                  #5cb85c;
+$color-info:                     #5bc0de;
+$color-warning:                  #f0ad4e;
+$color-danger:                   #d9534f;
+
+$white: 						 #ffffff;
+$color-gray-base:                #111111;
+$color-gray-light:               lighten($color-gray-base, 15%);
+$color-muted:                    lighten($color-gray-base, 55%);
+
+$color-dark:                     #58595B;
+
+$color-heading:                  $color-gray-base;
+$color-text:                     $color-gray-light;
+
+$color-linked:                   $color-primary;
+$color-linked-hover:             darken($color-linked, 15%);
+
+$border-color:                   lighten($color-gray-base, 81.5%); // #e1e1e1
+$border-color-lighten:           lighten($color-gray-base, 88%); // #f1f1f1
+
+
+$bg-cream: 						           #ebf2e3;
+$bg-gray:                        #f1f1f1;
+$bg-body:                        #ffffff;
+$bg-dark:                        $color-dark;
+$bg-muted:                       $color-muted;
+$bg-primary: 					           $color-primary;
+
+$bg-footer:                      $bg-dark;
+
+$navbar-height:                  62px;
+
+$ribbon-bg:                      #ddd;
+$btn-gray-bg:                    #dedede;
+$btn-gray-color:                 $color-gray-base;
+
+$brand-facebook:                 #3b5998;
+$brand-google:                   #dd4b39;
+$brand-twitter:                  #00aced;
+$brand-youtube:                  #bb0000;
+$brand-linkedin:                 #007bb5;
+$brand-instagram:                #125688;
+$brand-whatsapp:                 #4dc247;
+$brand-pinterest:                #cb2027;
+$brand-flickr:                   #ff0084;
+$brand-tumblr:                   #32506d;
+$brand-vk:                       #45668e;
+
+$ff-ptSerif:                  	 'PT Serif', serif;
+$ff-lato:                        'Lato', sans-serif;
+$ff-archivo: 					           'Archivo', sans-serif;
+$ff-base:               		     $ff-lato;
+$ff-secondary: 					         $ff-ptSerif;
+$fs-base: 						           16px;
+$fw:               				       400;
+$font-color-base:                $color-text;
+
+
+
+
+
+$phone:                          '(max-width: 575px)';
+$extra-small-max:                '(max-width: 767px)';
+$small-min:                      '(min-width: 768px)';
+$small-max:                      '(max-width: 991px)';
+$small-only:                     '(min-width: 768px) and (max-width: 991px)';
+$medium-min:                     '(min-width: 992px)';
+$medium-max:                     '(max-width: 1199px)';
+$medium-only:                    '(min-width: 992px) and (max-width: 1199px)';
+$large-min:                      '(min-width: 1200px)';

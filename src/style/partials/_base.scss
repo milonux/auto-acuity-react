@@ -1,0 +1,26 @@
+* {
+  @include selection($color-primary, #fff);
+}
+html, body {
+	height: 100%;
+}
+body {
+  background-color: $bg-body;
+  font-family: $ff-base;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-heading;
+}
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+a {
+  color: $color-linked;
+  &:hover, &:focus {
+    color: $color-linked-hover;
+    outline: none;
+    text-decoration: none;
+  }
+}

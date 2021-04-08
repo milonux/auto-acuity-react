@@ -1,0 +1,47 @@
+/* NAV
+*************************************************** */
+.navbar {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+.navbar-brand {
+  img {
+    max-height: 46px;
+    width: auto;
+  }
+}
+.navbar {
+  .nav-link {
+    font-size: ($fs-base * .875);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .063rem;
+  }
+}
+.navbar-light {
+  .navbar-nav {
+    .show > .nav-link, .active > .nav-link,
+    .nav-link.show, .nav-link.active {
+      color: $color-primary;
+    }
+  }
+}
+
+.navbar-dark {
+  .navbar-nav {
+    .nav-link {
+      color: rgba(255, 255, 255, 1)
+    }
+  }
+}
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: $color-heading;
+    }
+  }
+}
